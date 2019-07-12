@@ -1,0 +1,23 @@
+<head>
+  <title>textCircle</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">TextCircle</a>
+        </div>
+    </nav>
+    <div>
+        {{> editor}}
+    </div>
+
+</body>
+
+<template name="current_date">
+    {{date}}
+</template>
+
+<template name="editor" class="editor1">
+     {{> sharejsText docid="test" id="editor"}}
+</template>
