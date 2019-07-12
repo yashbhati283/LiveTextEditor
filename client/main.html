@@ -6,6 +6,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">TextCircle</a>
+          {{> current_date}}
         </div>
     </nav>
     <div>
@@ -13,6 +14,10 @@
     </div>
 
 </body>
+
+<template name="current_date">
+    {{date}}
+</template>
 
 
 <template name="editor" class="editor1">
